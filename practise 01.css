@@ -1,0 +1,53 @@
+/* border & size */
+/* 01 */
+body{
+    background-color: gray;
+}
+table{
+    width: 50%;
+    height: 50%;
+}
+.games {
+    font-family: 'Times New Roman', Times, serif;
+    /* 02 */
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .games td, .games th {
+    border: 1px solid black;
+    /* 03 */
+    padding: 10px;
+    border: 3px solid black;
+  }
+  
+  
+  .games tr:hover {background-color:red;}
+  
+  .games th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:green;
+    color: white;
+  }
+  /* 04 */
+  .players table, th, td {
+    border: 1px solid;
+  }
+  .players{
+      background-color: lightcoral;
+  }
+  /* Alignment */
+  .cricket {
+      border-collapse: collapse;
+      background-color: lightblue;
+  }
+  .cricket td{
+      text-align: center;
+  }
+  .cricket th {
+      text-align: right;
+  }
+  .left td {
+      text-align: left;
+  }
